@@ -51,4 +51,32 @@ public class Bank {
         }
         return (false);
     }
+
+}
+class SBI extends Bank{
+    float interest;
+    public SBI(float interestrrate){
+        this.interest = interestrrate;
+    }
+    public void getDetails(){
+        System.out.println(this.interest);
+    }
+}
+class BOI extends Bank{
+    float interest;
+    public BOI(float interestrrate){
+        this.interest = interestrrate;
+    }
+    public void getDetails(){
+        System.out.println(this.interest);
+    }
+}
+class ICICI extends Bank{
+    float interest;
+    public ICICI(float interestrrate){
+        this.interest = interestrrate;
+    }
+    public void getDetails(){
+        System.out.println(this.interest);
+    }
 }

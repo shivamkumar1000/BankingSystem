@@ -72,6 +72,8 @@ public class Banking {
                     break;
             }
         } while (ch != 5);
+        SBI sbi = new SBI((float)1.2);
+        sbi.getDetails();
     }
 
 }
